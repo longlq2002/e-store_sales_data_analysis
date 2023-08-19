@@ -1,12 +1,40 @@
-# e-store_sales_data_analysis
+# E-store_sales_data_analysis
+#### The project conducted an analysis of sales data for a year from an electronic retail chain in the United States in 2019. The project aims to analyze and answer five main questions: (1) What was the best month for sales and how much revenue was generated that month? (2) Which city had the highest number of sales? (3) What is the optimal time to display advertisements to maximize the likelihood of customer purchases? (4) Which products are most frequently sold together? (5) Which product had the highest sales? Why do you think it outperformed the others?
 
-### - Personal customer information has been removed to ensure anonymity.
-### - The data is presented and fully analyzed in the file .ipynb
-
-#### The project conducted an analysis of sales data for a year from an electronic retail chain in the United States in 2019. The project aims to analyze and answer five main questions: (1) What was the best month for sales and how much revenue was generated that month? (2) Which city had the highest number of sales? (3) What is the optimal time to display advertisements to maximize the likelihood of customer purchases? (4) Which product had the highest sales? Why do you think it outperformed the others? (5) Which products are most frequently sold together? 
-
-
-
+####   Note:
+##### *- Personal customer information has been removed to ensure anonymity.*
+##### *- The data is presented and fully analyzed in the file .ipynb*
+***
+### *Part 1: What was the best month for sales and how much revenue was generated that month?*
 The results indicate that the end of the year, specifically the fourth quarter of 2019, was the period with the highest sales profit, reaching a total of $11,549,773.42 (accounting for 33.49% of the total sales profit for the year). Among these, the month of December stood out as the highest-profit month within the fourth quarter, with sales totaling $4,613,443.34, constituting 39.4% of the fourth quarter's sales revenue in 2019.
 
 The reason why sales activities in the last 3 months of the year earn the most profit is because this time is associated with many Western activities and holidays such as Halloween (31/10); Thanksgiving Day (5th of the 4th week of November); Black Friday in the US (6th of the 4th week of November) ... Therefore, sales activities at this time will become more exciting due to the preferential purchase policies offered by e-businesses continuously to stimulate shopping demand. In addition, around the end of December, there are 2 almost largest holidays of the US, Christmas (25/12) and New Year's Day (1/1), so the shopping demand of customers will increase for many different purposes, leading to the highest profit of December in sales profit in 2019.
+
+![1](https://github.com/longlq2002/e-store_sales_data_analysis/assets/91828687/37bc3532-3950-466e-b046-d88652e76d95)
+***
+### *Part 2: Which city had the highest number of sales?*
+In the year 2019, San Francisco (CA) was the city with the highest sales revenue, generating a profit of $8,262,203.91, accounting for 24 % of the total sales revenue of all cities. This can be explained by the fact that San Francisco is the birthplace of Silicon Valley, one of the world's most significant centers of innovation and technology. The concentration of technology companies, startups, and experts can lead to a higher demand for electronic devices and utilities. Additionally, the tech-savvy culture in San Francisco often results in the early adoption of new electronic products and technologies. Residents may have a tendency to try out the latest gadgets and devices.
+
+![2](https://github.com/longlq2002/e-store_sales_data_analysis/assets/91828687/c56876e5-6a8f-4acf-9a00-3c740f5e603f)
+***
+### *Part 3: What is the optimal time to display advertisements to maximize the likelihood of customer purchases?*
+Customers tend to make purchases at two specific times of the day. The first period is from 11:00 AM to 12:00 PM, and the second period is between 6:00 PM to 7:00 PM in the evening. These time frames mostly coincide with breaks and meal times during work, making it convenient for customers to shop for electronic devices without hindrance. Therefore, these two time slots are the best times for advertising to reach customers. Advertising should be delivered through smart mobile devices or personal computers during the first time frame (11:00 AM to 12:00 PM noon) as customers tend to take breaks at their workplace. During the second time frame (6:00 PM to 7:00 PM), advertising should be transmitted through TV and other broadcasting daevices since this is the time when work is over, and customers tend to relax at home.
+
+![3](https://github.com/longlq2002/e-store_sales_data_analysis/assets/91828687/bed66bda-a845-49dc-8e44-a6537389de75)
+***
+### *Part 4: Which products are most frequently sold together?*
+Phones - charging cables and phones - earphones are two common pairs of products among the top 10 pairs of products most frequently purchased together. Among these, the number of customers buying an iPhone and a Lightning charging cable constitutes the largest quantity with 1005 orders sold. There is not much difference in the number of orders between those who purchase a Google Phone and a USB-C charging cable, with 987 orders. As for the phone - earphones pair, there is also not much discrepancy between the phones of the two brands, Google and iPhone, with 447 orders for iPhone Earphones with wires (This number for Google phone and wired earphones is 414 orders). The question that arises is whether there is a significant difference in the number of orders for the phone - charging cable and phone - earphones pairs.
+
+![441](https://github.com/longlq2002/e-store_sales_data_analysis/assets/91828687/c048b5ad-f9e9-470e-9955-df61842ff758)
+***
+### *Part 5: Which product had the highest sales? Why do you think it outperformed the others?*
+Batteries, charging cables, and headphones, in decreasing order, are the top three products with the highest sales volume, with AAA batteries being the best-selling product (over 30,000 units). The common feature among these items is that they are moderately priced and can be used for various purposes and different devices (batteries can power multiple devices; headphones and charging cables can be used with various devices). This leads to a relatively large disparity in the number of customers purchasing phone accessories like charging cables and headphones compared to the number of customers who only buy individual items such as charging cables, phones, and batteries. The results also show that for relatively high-priced products such as phones, monitors, and washing machines, the number of units sold is not as high as for lower-priced products. Is there a correlation between pricing and the number of units sold?Batteries, charging cables, and headphones, in decreasing order, are the top three products with the highest sales volume, with AAA batteries being the best-selling product (over 30,000 units). The common feature among these items is that they are moderately priced and can be used for various purposes and different devices (batteries can power multiple devices; headphones and charging cables can be used with various devices). This leads to a relatively large disparity in the number of customers purchasing phone accessories like charging cables and headphones compared to the number of customers who only buy individual items such as charging cables, phones, and batteries. The results also show that for relatively high-priced products such as phones, monitors, and washing machines, the number of units sold is not as high as for lower-priced products. Is there a correlation between pricing and the number of units sold?
+
+
+![4](https://github.com/longlq2002/e-store_sales_data_analysis/assets/91828687/602a3bec-4d5e-4206-bb50-7e26e25da2c5)
+
+After adding a line chart to visualize prices, the results reveal a correlation between pricing and the number of units sold. Specifically, for the top three best-selling products including batteries, charging cables, and headphones, they all have relatively moderate prices. Conversely, products like monitors, phones, and washing machines, which have higher prices, are not purchased in large quantities. However, price is just one of the factors influencing the sales volume of products. Other factors will be further investigated in upcoming projects.After adding a line chart to visualize prices, the results reveal a correlation between pricing and the number of units sold. Specifically, for the top three best-selling products including batteries, charging cables, and headphones, they all have relatively moderate prices. Conversely, products like monitors, phones, and washing machines, which have higher prices, are not purchased in large quantities. However, price is just one of the factors influencing the sales volume of products. Other factors will be further investigated in upcoming projects.
+
+![5](https://github.com/longlq2002/e-store_sales_data_analysis/assets/91828687/a205f4d7-5776-447f-9744-868b8514ca28)
+***
+### Thanks for watching ^^
