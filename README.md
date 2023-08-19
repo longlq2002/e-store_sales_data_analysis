@@ -1,7 +1,7 @@
 # E-store sales data analysis.
-#### The project conducted an analysis of sales data for a year from an electronic retail chain in the United States in 2019. The project aims to analyze and answer five main questions: (1) What was the best month for sales and how much revenue was generated that month? (2) Which city had the highest number of sales? (3) What is the optimal time to display advertisements to maximize the likelihood of customer purchases? (4) Which products are most frequently sold together? (5) Which product had the highest sales? Why do you think it outperformed the others?
+#### The project involves analyzing sales data from over 186,000 orders throughout the year 2019 for an electronic store chain in the United States. The project aims to analyze and answer five main questions: (1) What was the best month for sales and how much revenue was generated that month? (2) Which city had the highest number of sales? (3) What is the optimal time to display advertisements to maximize the likelihood of customer purchases? (4) Which products are most frequently sold together? (5) Which product had the highest sales? Why do you think it outperformed the others?
 
-####   Note:
+####   **Note:**
 ##### *- Personal customer information has been removed to ensure anonymity.*
 ##### *- The data is presented and fully analyzed in the file .ipynb*
 ***
